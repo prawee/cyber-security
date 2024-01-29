@@ -16,10 +16,21 @@ node -version
 
 ## Clone strapi app
 ```bash
-git clone http://github.com/strapi/strapi.git 
-67-strapi-cybersec
+npx create-strapi-app 67-strapi-cybersec
 ```
 
+```bash
+? Choose your installation type Custom (manual 
+settings)
+? Choose your preferred language JavaScript
+? Choose your default database client postgres
+? Database name: 67_app_uat
+? Host: 192.168.211.18
+? Port: 54318
+? Username: prawee
+? Password: ********
+? Enable SSL connection: (y/N) n
+```
 ```bash
 pwd #recheck current folder
 ls #lookup resource
