@@ -36,6 +36,11 @@ pwd #recheck current folder
 ls #lookup resource
 ```
 
+## Running project
+```bash
+yarn develop | npm run develop
+```
+
 ## Install package and dependencies
 ```bash
 yarn | npm install
