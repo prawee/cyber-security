@@ -47,3 +47,12 @@ USER node
 EXPOSE 1337
 CMD ["yarn", "start"]
 ```
+
+## Exist error on build
+```bash
+docker buildx create --use --name mybuild
+```
+
+```bash
+docker buildx build -t prawee/app:1.0.0 . --load
+```
