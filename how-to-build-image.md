@@ -49,10 +49,20 @@ CMD ["yarn", "start"]
 ```
 
 ## Exist error on build
+### Create container for build
 ```bash
 docker buildx create --use --name mybuild
 ```
-
+### Build and load to docker
 ```bash
 docker buildx build -t prawee/app:1.0.0 . --load
+```
+### Build and push to docker hub / docker registry
+```bash
+docker buildx build -t prawee/app:1.0.0 . --push
+```
+### Build with another platform
+```bash
+docker buildx build --platoform linux/amd64 -t 
+prawee/app:1.0.0 . --load
 ```
