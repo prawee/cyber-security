@@ -66,3 +66,9 @@ docker buildx build -t prawee/app:1.0.0 . --push
 docker buildx build --platoform linux/amd64 -t 
 prawee/app:1.0.0 . --load
 ```
+
+### Build with multiple platform in the same time
+```bash
+docker buildx build --platoform linux/amd64,linux/arm64 -t 
+prawee/strapi . --push
+```
