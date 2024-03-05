@@ -23,3 +23,15 @@ git push -u origin {new-branch-name}
 ```bash
 git push -u origin create-classroom-schema
 ```
+
+## Full
+1. create new branch
+2. push new branch
+3. back checkout to develop
+```bash
+git branch
+# develop
+git checkout -b "new-branch"
+git push -u origin new-branch
+git checkout develop
+```
