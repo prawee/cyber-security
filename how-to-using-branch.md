@@ -13,3 +13,13 @@ git checkout -b "develop"
 ```bash
 git checkout main
 ```
+
+### Push new branch
+```bash
+git push -u origin {new-branch-name}
+```
+
+### Example
+```bash
+git push -u origin create-classroom-schema
+```
