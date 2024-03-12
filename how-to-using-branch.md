@@ -24,6 +24,15 @@ git push -u origin {new-branch-name}
 git push -u origin create-classroom-schema
 ```
 
+## Delete branch
+```bash
+git branch -D "branch-for-delete"
+```
+### Example
+```bash
+git branch -D "encode-decode-data"
+```
+
 ## Full
 1. create new branch
 2. push new branch
