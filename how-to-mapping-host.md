@@ -10,9 +10,15 @@ ping: cannot resolve myapp.local: Unknown host
 ```
 
 ## Update hosts
+### Linux/MacOS
 - /etc/hosts
 ```bash
 sudo nano /etc/hosts
+```
+### Windows
+- C:\Windows\System32\drivers\etc\hosts
+```bash
+sudo nano c:\Windows\System32\drivers\etc\hosts
 ```
 
 ```bash
@@ -40,3 +46,4 @@ PING myapp.local (127.0.0.1): 56 data bytes
 ## Reference
 <https://hub.docker.com/_/caddy>
 <https://caddyserver.com/docs/caddyfile/concepts>
+<https://www.siteground.com/kb/hosts-file>
