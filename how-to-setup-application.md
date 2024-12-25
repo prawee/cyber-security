@@ -19,10 +19,9 @@ docker run
 ### Ports
   - 8080:1337
 ### Environment Variable
-  -DATABASE_CLIENT=postgres
-  -DATABASE_NAME=?
-  -DATABASE_HOST= `(windows) => ipconfig, (Linux/mac) => ifconfig` *** 192.168.x.x
-  `
-  -DATABASE_PORT=?
-  -DATABASE_USERNAME=?
-  -DATABASE_PASSWORD=?
+  - DATABASE_CLIENT=postgres
+  - DATABASE_NAME=?
+  - DATABASE_HOST= `(windows) => ipconfig, (Linux/mac) => ifconfig` *** 192.168.x.x`
+  - DATABASE_PORT=?
+  - DATABASE_USERNAME=?
+  - DATABASE_PASSWORD=?
