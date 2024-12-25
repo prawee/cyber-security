@@ -2,8 +2,11 @@
 
 ## CLI
 ```bash
-docker run --name my_db -p 54321:5432 -e POSTGRES_PASSWORD=i8A64_oS -e POSTGRES_USER=prawee -e POSTGRES_DB=prawee postgres
+docker run --name my_db -p 54321:5432 -e POSTGRES_PASSWORD={password} -e POSTGRES_USER={your_name} -e POSTGRES_DB={your_name} postgres
 ```
+- {password} is password of database
+- {your_name} is real name
+
 ## UI
 ### Name
   Container Name = my_db
