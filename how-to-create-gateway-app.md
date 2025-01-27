@@ -5,21 +5,21 @@
 
 ## Start
 ```bash
-npx create-strapi-app@4 cyber-security-gateway
-```
-
-```bash
-? Choose your installation type
-❯ Quickstart (recommended) ****
-  Custom (manual settings)
-
-? Please log in or sign up. Skip
-Creating a quickstart project.
-Creating a new Strapi application at /Users/prawee/code/cyber-security/cyber-security-gateway
+npx create-strapi-app@4 cyber-security-gateway --quickstart
+cd cyber-security-gateway
 yarn install | npm install
 ```
 
 ## Running
 ```bash
 yarn develop | npm run develop
+```
+
+## Register to repo
+```bash
+git init
+git remote add origin https://github.com/prawee/cyber-security-gateway.git
+git add .
+git commit -m "initial commit."
+git push -u origin master
 ```
