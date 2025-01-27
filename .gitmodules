@@ -1,3 +1,6 @@
 [submodule "gateway"]
 	path = gateway
 	url = https://github.com/prawee/cyber-security-app.git
+[submodule "flow"]
+	path = flow
+	url = https://github.com/prawee/cyber-security-flow.git
