@@ -23,7 +23,21 @@ npm run build
 npm run start
 ```
 
-## Link to your Repo
+## Running
+```bash
+yarn develop | npm run develop
+```
+
+## Register or Link to your Repo
+### Short
+```bash
+git init
+git remote add origin https://github.com/prawee/cyber-security-gateway.git
+git add .
+git commit -m "initial commit."
+git push -u origin master
+```
+### Detail step
 ```bash
 rm -rf .git
 git init
@@ -33,19 +47,5 @@ git add .
 git status #green
 git commit -m "initial commit."
 git status #nothing
-git push -u origin master
-```
-
-## Running
-```bash
-yarn develop | npm run develop
-```
-
-## Register to repo
-```bash
-git init
-git remote add origin https://github.com/prawee/cyber-security-gateway.git
-git add .
-git commit -m "initial commit."
 git push -u origin master
 ```
