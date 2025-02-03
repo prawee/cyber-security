@@ -62,6 +62,7 @@ APP_KEYS=mQeQd1RsWAEJ7E9pVwOnJw==,+nRmHclPMt+yeEfkHt3jtw==,rrD4LvjRTsUSdyRRCbSP5
 API_TOKEN_SALT=wpyr5bi0VZg5S/h+0fhU4Q==
 ADMIN_JWT_SECRET=2DbnslgqjfamMAbUIaTR0w==
 TRANSFER_TOKEN_SALT=5G2F0LRLwtXQfY5akI+quA==
+JWT_SECRET=lovemelovemycat
 
 # Database
 DATABASE_CLIENT=sqlite
