@@ -49,3 +49,30 @@ git commit -m "initial commit."
 git status #nothing
 git push -u origin master
 ```
+
+## Example of ENV
+### Quickstart
+```bash
+# Server
+HOST=0.0.0.0
+PORT=1337
+
+# Secrets
+APP_KEYS=mQeQd1RsWAEJ7E9pVwOnJw==,+nRmHclPMt+yeEfkHt3jtw==,rrD4LvjRTsUSdyRRCbSP5w==,fW2tEaavssWn/P09Lss9rQ==
+API_TOKEN_SALT=wpyr5bi0VZg5S/h+0fhU4Q==
+ADMIN_JWT_SECRET=2DbnslgqjfamMAbUIaTR0w==
+TRANSFER_TOKEN_SALT=5G2F0LRLwtXQfY5akI+quA==
+
+# Database
+DATABASE_CLIENT=sqlite
+DATABASE_FILENAME=.tmp/data.db
+````
+### With databases
+```bash
+DATABASE_HOST=
+DATABASE_PORT=
+DATABASE_NAME=
+DATABASE_USERNAME=
+DATABASE_PASSWORD=
+DATABASE_SSL=false
+```
