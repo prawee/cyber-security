@@ -9,3 +9,15 @@
 4. Region with `Singapore`
 5. PostgreSQL Version `16`
 6. Instance Type `Free`
+
+## How to connect db
+### Single Line
+postgres://{username}:{password}/{dbname}
+### Configure with variable
+DATABASE_CLIENT=postgres
+DATABASE_HOST=
+DATABASE_PORT=
+DATABASE_NAME=
+DATABASE_USERNAME=
+DATABASE_PASSWORD=
+DATABASE_SSL=false
