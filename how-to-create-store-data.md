@@ -14,6 +14,7 @@
 ### Single Line
 postgres://{username}:{password}/{dbname}
 ### Configure with variable
+```bash
 DATABASE_CLIENT=postgres
 DATABASE_HOST=
 DATABASE_PORT=
@@ -21,3 +22,4 @@ DATABASE_NAME=
 DATABASE_USERNAME=
 DATABASE_PASSWORD=
 DATABASE_SSL=false
+```
