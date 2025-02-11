@@ -54,3 +54,10 @@ git push
 git config --list
 git config --global user.email "prawee@hotmail.com"
 ```
+
+## How to clone project
+```bash
+git clone https://github.com/prawee/cyber-security-admin.git
+cd cyber-security-admin
+ls # window use `dir`
+```
