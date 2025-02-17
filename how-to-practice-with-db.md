@@ -32,3 +32,13 @@ model User {
 ```bash
 npx prisma format
 ```
+
+## Push database
+```bash
+npx prisma db push
+```
+
+## Look up database
+```bash
+npx prisma studio
+```
