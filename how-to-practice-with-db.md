@@ -11,3 +11,8 @@ pwd
 npm install prisma | yarn add prisma # orm
 npm install sqlite3 | yarn add sqlite3 # db
 ```
+## Initialize prisma and sqlite
+```bash
+npx prisma
+npx prisma init --datasource-provider sqlite
+```
