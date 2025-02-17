@@ -16,3 +16,19 @@ npm install sqlite3 | yarn add sqlite3 # db
 npx prisma
 npx prisma init --datasource-provider sqlite
 ```
+## Create model
+```bash
+cd prisma
+nano schema.prisma
+```
+```bash
+...
+model User {
+  id Int @id @default(autoincrement())
+  username String
+  password String
+}
+```
+```bash
+npx prisma format
+```
