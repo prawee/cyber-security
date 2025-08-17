@@ -24,7 +24,9 @@ export default app;
 ```
 ### Create server instance from `Hono Server`
 ```bash
-nano src/server.ts | code src/server.ts
+nano src/server.ts # mac
+# or
+code src/server.ts # windows
 ```
 ```bash
 import { serve } from "@hono/node-server";
