@@ -3,6 +3,7 @@
 ## Required
 - Hono  `npm install hono`
 - Hono Server `npm install @hono/node-server`
+- TS Node `npm install -D ts-node`
 
 ## Create application
 ### Create folder
