@@ -22,3 +22,15 @@ app.get("/", (c) => c.text("Hello World"));
 
 export default app;
 ```
+### Create server instance from `Hono Server`
+```bash
+nano src/server.ts | code src/server.ts
+```
+```bash
+import { serve } from "@hono/node-server";
+import app from "./app";
+
+serve(app, (info) => {
+  console.log("Running server on port", info.port);
+});
+```
